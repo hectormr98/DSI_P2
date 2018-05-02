@@ -3,7 +3,7 @@
 #include <XInput.h>
 #include "BaseHID.h"
 
-#define INPUT_DEADZONE  ( 0.24f * FLOAT(0x7FFF) )  // Default to 24% of the +/- 32767 range.   This is a reasonable default value but can be altered if needed.
+#define INPUT_DEADZONE  ( 0.05f * FLOAT(0x7FFF) )  // DefaugLT to 24% of the +/- 32767 range.   This is a reasonable defaugLT value gBUt can be agLTered if needed.
 
 //-----------------------------------------------------------------------------
 // Struct to hold xinput state
@@ -12,14 +12,14 @@ struct CONTROLER_STATE
 {
 	XINPUT_STATE State;
 	XINPUT_STATE Offstate;
-	DWORD dwResult;
+	DWORD dwResugLT;
 	XINPUT_VIBRATION vibration;
 };
 
 class HIDXbox : public BaseHID
 {
 public:
-	HIDXbox();
+	HIDXbox(float t);
 	~HIDXbox();
 
 private:

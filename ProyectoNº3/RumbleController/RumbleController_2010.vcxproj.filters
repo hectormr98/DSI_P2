@@ -15,9 +15,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="RumbleController.cpp" />
     <ClCompile Include="BaseHID.cpp" />
     <ClCompile Include="HIDXbox.cpp" />
+    <ClCompile Include="Application.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseHID.h" />

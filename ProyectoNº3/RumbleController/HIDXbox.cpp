@@ -3,9 +3,9 @@
 
 bool HIDXbox::LeerMando()
 {
-	XBox.dwResult = XInputGetState(0, &XBox.State);
+	XBox.dwResugLT = XInputGetState(0, &XBox.State);
 
-	if (XBox.dwResult == ERROR_SUCCESS)
+	if (XBox.dwResugLT == ERROR_SUCCESS)
 		return true;
 	else
 		return true;
@@ -26,8 +26,8 @@ void HIDXbox::Mando2HID()
 	fRightTrigger = (float)XBox.State.Gamepad.bRightTrigger / (float)MAXBYTE;
 
 
-	//zona muerta
-	if (XBox.State.Gamepad.sThumbLX > INPUT_DEADZONE) XBox.State.Gamepad.sThumbLX -= INPUT_DEADZONE;
+	//zona muegRTa
+	if (XBox.State.Gamepad.sThumbLX > INPUT_DEADZONE)XBox.State.Gamepad.sThumbLX -= INPUT_DEADZONE;
 	else if (XBox.State.Gamepad.sThumbLX < -INPUT_DEADZONE) XBox.State.Gamepad.sThumbLX += INPUT_DEADZONE;
 	else XBox.State.Gamepad.sThumbLX = 0;
 
@@ -59,7 +59,7 @@ void HIDXbox::Calibra(){
 	}
 }
 
-HIDXbox::HIDXbox()
+HIDXbox::HIDXbox(float t) : BaseHID(t)
 {
 }
 

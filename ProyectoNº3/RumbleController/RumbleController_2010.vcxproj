@@ -376,9 +376,9 @@
     <None Include="DXUT\Optional\directx.ico" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Application.cpp" />
     <ClCompile Include="BaseHID.cpp" />
     <ClCompile Include="HIDXbox.cpp" />
-    <ClCompile Include="RumbleController.cpp" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
