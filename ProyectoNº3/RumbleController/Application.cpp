@@ -63,10 +63,70 @@ void GeneraEfectos(HIDXbox* controller) {
 		pt.y -= 20 * controller->RJYf();
 		SetCursorPos(pt.x, pt.y);
 	}
-	else
+
+	if (controller->BD(XINPUT_GAMEPAD_LEFT_SHOULDER))
 	{
-		controller->sLR(0, 0);
+		mouse_event(MOUSEEVENTF_ABSOLUTE | MOUSEEVENTF_LEFTDOWN, pt.x, pt.y, 0, NULL);
 	}
+	if (controller->BU(XINPUT_GAMEPAD_LEFT_SHOULDER))
+	{
+		mouse_event(MOUSEEVENTF_ABSOLUTE | MOUSEEVENTF_LEFTUP, pt.x, pt.y, 0, NULL);
+	}
+	if (controller->BU(XINPUT_GAMEPAD_RIGHT_SHOULDER))
+	{
+		mouse_event(MOUSEEVENTF_ABSOLUTE | MOUSEEVENTF_RIGHTUP, pt.x, pt.y, 0, NULL);
+	}
+	if (controller->BD(XINPUT_GAMEPAD_X))
+	{
+		keybd_event(VK_HOME, 0X45, KEYEVENTF_EXTENDEDKEY | 0, NULL);
+	}
+	else if (controller->BD(XINPUT_GAMEPAD_B))
+	{
+		keybd_event(VK_END, 0X45, KEYEVENTF_EXTENDEDKEY | 0, NULL);
+	}
+
+	if (controller->BD(XINPUT_GAMEPAD_Y))
+	{
+		keybd_event(VK_PRIOR, 0X45, KEYEVENTF_EXTENDEDKEY | 0, NULL);
+	}
+	else if (controller->BD(XINPUT_GAMEPAD_A))
+	{
+		keybd_event(VK_NEXT, 0X45, KEYEVENTF_EXTENDEDKEY | 0, NULL);
+	}
+
+	if (controller->BD(XINPUT_GAMEPAD_BACK))
+	{
+		keybd_event(VK_ESCAPE, 0X45, KEYEVENTF_EXTENDEDKEY | 0, NULL);
+	}
+	else if (controller->BD(XINPUT_GAMEPAD_START))
+	{
+		keybd_event(VK_RETURN, 0X45, KEYEVENTF_EXTENDEDKEY | 0, NULL);
+	}
+	if (controller->BD(XINPUT_GAMEPAD_DPAD_UP))
+	{
+		keybd_event(VK_UP, 0X45, KEYEVENTF_EXTENDEDKEY | 0, NULL);
+	}
+	else if (controller->BD(XINPUT_GAMEPAD_DPAD_DOWN))
+	{
+		keybd_event(VK_DOWN, 0X45, KEYEVENTF_EXTENDEDKEY | 0, NULL);
+	}
+	else if (controller->BD(XINPUT_GAMEPAD_DPAD_RIGHT))
+	{
+		keybd_event(VK_RIGHT, 0X45, KEYEVENTF_EXTENDEDKEY | 0, NULL);
+	}
+	else if (controller->BD(XINPUT_GAMEPAD_DPAD_LEFT))
+	{
+		keybd_event(VK_LEFT, 0X45, KEYEVENTF_EXTENDEDKEY | 0, NULL);
+	}
+	/*if (controller->LT() > 0)
+	{
+		mouse_event(MOUSEEVENTF_ABSOLUTE | MOUSEEVENTF_WHEEL, pt.x, pt.y, g_Controllers[i].state.Gamepad.bLeftTrigger / 10, 0);
+	}
+	else if (controller->RT()> 0)
+	{
+		mouse_event(MOUSEEVENTF_ABSOLUTE | MOUSEEVENTF_WHEEL, pt.x, pt.y, -g_Controllers[i].state.Gamepad.bRightTrigger / 10, 0);
+	}
+	*/
 }
 VOID CALLBACK TimerCallBack()
 {
