@@ -1,0 +1,11 @@
+﻿  RumbleController.cpp
+c:\users\pekev\onedrive\documentos\github\dsi\practica2\rumblecontroller\rumblecontroller.cpp(89): warning C4101: 'bGotMsg': variable local sin referencia
+c:\users\pekev\onedrive\documentos\github\dsi\practica2\rumblecontroller\rumblecontroller.cpp(208): warning C4457: la declaración de 'i' oculta el parámetro de función
+  c:\users\pekev\onedrive\documentos\github\dsi\practica2\rumblecontroller\rumblecontroller.cpp(203): note: vea la declaración de 'i'
+c:\users\pekev\onedrive\documentos\github\dsi\practica2\rumblecontroller\rumblecontroller.cpp(362): warning C4305: '=': truncamiento de 'unsigned long' a 'WORD'
+c:\users\pekev\onedrive\documentos\github\dsi\practica2\rumblecontroller\rumblecontroller.cpp(362): warning C4309: '=': truncamiento de valor constante
+c:\users\pekev\onedrive\documentos\github\dsi\practica2\rumblecontroller\rumblecontroller.cpp(203): warning C4100: 'i': parámetro formal sin referencia
+c:\users\pekev\onedrive\documentos\github\dsi\practica2\rumblecontroller\rumblecontroller.cpp(418): warning C4995: 'XInputEnable': se marcó el nombre como #pragma deprecated
+c:\users\pekev\onedrive\documentos\github\dsi\practica2\rumblecontroller\rumblecontroller.cpp(406): warning C4101: 'hCurs1': variable local sin referencia
+c:\users\pekev\onedrive\documentos\github\dsi\practica2\rumblecontroller\rumblecontroller.cpp(406): warning C4101: 'hCurs2': variable local sin referencia
+  RumbleController_2008.vcxproj -> C:\Users\pekev\OneDrive\Documentos\GitHub\DSI\Practica2\RumbleController\Debug\RumbleController.exe

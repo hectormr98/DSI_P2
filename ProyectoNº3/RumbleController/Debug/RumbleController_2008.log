@@ -1,0 +1,36 @@
+﻿  RumbleController.cpp
+c:\users\pekev\onedrive\documentos\github\dsi\proyectonº3\rumblecontroller\rumblecontroller.cpp(81): warning C4100: 'hInst': parámetro formal sin referencia
+c:\users\pekev\onedrive\documentos\github\dsi\proyectonº3\rumblecontroller\rumblecontroller.cpp(150): warning C4459: la declaración de 'Control' oculta la declaración global
+  c:\users\pekev\onedrive\documentos\github\dsi\proyectonº3\rumblecontroller\rumblecontroller.cpp(25): note: vea la declaración de 'Control'
+c:\users\pekev\onedrive\documentos\github\dsi\proyectonº3\rumblecontroller\rumblecontroller.cpp(151): warning C4459: la declaración de 'pt' oculta la declaración global
+  c:\users\pekev\onedrive\documentos\github\dsi\proyectonº3\rumblecontroller\rumblecontroller.cpp(67): note: vea la declaración de 'pt'
+c:\users\pekev\onedrive\documentos\github\dsi\proyectonº3\rumblecontroller\rumblecontroller.cpp(157): warning C4244: '+=': conversión de 'float' a 'LONG'; posible pérdida de datos
+c:\users\pekev\onedrive\documentos\github\dsi\proyectonº3\rumblecontroller\rumblecontroller.cpp(158): warning C4244: '+=': conversión de 'float' a 'LONG'; posible pérdida de datos
+c:\users\pekev\onedrive\documentos\github\dsi\proyectonº3\rumblecontroller\rumblecontroller.cpp(168): warning C4244: '=': conversión de 'float' a 'LONG'; posible pérdida de datos
+c:\users\pekev\onedrive\documentos\github\dsi\proyectonº3\rumblecontroller\rumblecontroller.cpp(169): warning C4244: '=': conversión de 'float' a 'LONG'; posible pérdida de datos
+c:\users\pekev\onedrive\documentos\github\dsi\proyectonº3\rumblecontroller\rumblecontroller.cpp(185): warning C4146: operador unario menos aplicado a un tipo unsigned; el resultado aún no tiene signo
+c:\users\pekev\onedrive\documentos\github\dsi\proyectonº3\rumblecontroller\rumblecontroller.cpp(153): warning C4189: 'hWnd': la variable local se ha inicializado pero no se hace referencia a ella
+c:\users\pekev\onedrive\documentos\github\dsi\proyectonº3\rumblecontroller\rumblecontroller.cpp(151): warning C4101: 'pt0': variable local sin referencia
+c:\users\pekev\onedrive\documentos\github\dsi\proyectonº3\rumblecontroller\rumblecontroller.cpp(226): warning C4244: '+=': conversión de 'float' a 'LONG'; posible pérdida de datos
+c:\users\pekev\onedrive\documentos\github\dsi\proyectonº3\rumblecontroller\rumblecontroller.cpp(229): warning C4244: '-=': conversión de 'float' a 'LONG'; posible pérdida de datos
+c:\users\pekev\onedrive\documentos\github\dsi\proyectonº3\rumblecontroller\rumblecontroller.cpp(237): warning C4244: '-=': conversión de 'float' a 'LONG'; posible pérdida de datos
+c:\users\pekev\onedrive\documentos\github\dsi\proyectonº3\rumblecontroller\rumblecontroller.cpp(240): warning C4244: '+=': conversión de 'float' a 'LONG'; posible pérdida de datos
+c:\users\pekev\onedrive\documentos\github\dsi\proyectonº3\rumblecontroller\rumblecontroller.cpp(392): warning C4995: 'XInputEnable': se marcó el nombre como #pragma deprecated
+RumbleController.obj : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/SAFESEH'
+RumbleController.obj : error LNK2019: símbolo externo "public: float __thiscall BaseHID::LT(void)" (?LT@BaseHID@@QAEMXZ) sin resolver al que se hace referencia en la función "void __cdecl GeneraEventos(class HIDXbox *)" (?GeneraEventos@@YAXPAVHIDXbox@@@Z)
+RumbleController.obj : error LNK2019: símbolo externo "public: float __thiscall BaseHID::RT(void)" (?RT@BaseHID@@QAEMXZ) sin resolver al que se hace referencia en la función "void __cdecl GeneraEventos(class HIDXbox *)" (?GeneraEventos@@YAXPAVHIDXbox@@@Z)
+RumbleController.obj : error LNK2019: símbolo externo "public: float __thiscall BaseHID::LJX(void)" (?LJX@BaseHID@@QAEMXZ) sin resolver al que se hace referencia en la función "void __cdecl GeneraEventos(class HIDXbox *)" (?GeneraEventos@@YAXPAVHIDXbox@@@Z)
+RumbleController.obj : error LNK2019: símbolo externo "public: float __thiscall BaseHID::LJY(void)" (?LJY@BaseHID@@QAEMXZ) sin resolver al que se hace referencia en la función "void __cdecl GeneraEventos(class HIDXbox *)" (?GeneraEventos@@YAXPAVHIDXbox@@@Z)
+RumbleController.obj : error LNK2019: símbolo externo "public: float __thiscall BaseHID::RJX(void)" (?RJX@BaseHID@@QAEMXZ) sin resolver al que se hace referencia en la función "void __cdecl GeneraEventos(class HIDXbox *)" (?GeneraEventos@@YAXPAVHIDXbox@@@Z)
+RumbleController.obj : error LNK2019: símbolo externo "public: float __thiscall BaseHID::RJY(void)" (?RJY@BaseHID@@QAEMXZ) sin resolver al que se hace referencia en la función "void __cdecl GeneraEventos(class HIDXbox *)" (?GeneraEventos@@YAXPAVHIDXbox@@@Z)
+RumbleController.obj : error LNK2019: símbolo externo "public: float __thiscall BaseHID::LJXf(void)" (?LJXf@BaseHID@@QAEMXZ) sin resolver al que se hace referencia en la función "void __cdecl GeneraEventos(class HIDXbox *)" (?GeneraEventos@@YAXPAVHIDXbox@@@Z)
+RumbleController.obj : error LNK2019: símbolo externo "public: float __thiscall BaseHID::LJYf(void)" (?LJYf@BaseHID@@QAEMXZ) sin resolver al que se hace referencia en la función "void __cdecl GeneraEventos(class HIDXbox *)" (?GeneraEventos@@YAXPAVHIDXbox@@@Z)
+RumbleController.obj : error LNK2019: símbolo externo "public: float __thiscall BaseHID::RJXf(void)" (?RJXf@BaseHID@@QAEMXZ) sin resolver al que se hace referencia en la función "void __cdecl GeneraEventos(class HIDXbox *)" (?GeneraEventos@@YAXPAVHIDXbox@@@Z)
+RumbleController.obj : error LNK2019: símbolo externo "public: float __thiscall BaseHID::RJYf(void)" (?RJYf@BaseHID@@QAEMXZ) sin resolver al que se hace referencia en la función "void __cdecl GeneraEventos(class HIDXbox *)" (?GeneraEventos@@YAXPAVHIDXbox@@@Z)
+RumbleController.obj : error LNK2019: símbolo externo "public: bool __thiscall BaseHID::BD(unsigned short)" (?BD@BaseHID@@QAE_NG@Z) sin resolver al que se hace referencia en la función "void __cdecl GeneraEventos(class HIDXbox *)" (?GeneraEventos@@YAXPAVHIDXbox@@@Z)
+RumbleController.obj : error LNK2019: símbolo externo "public: bool __thiscall BaseHID::BU(unsigned short)" (?BU@BaseHID@@QAE_NG@Z) sin resolver al que se hace referencia en la función "void __cdecl GeneraEventos(class HIDXbox *)" (?GeneraEventos@@YAXPAVHIDXbox@@@Z)
+RumbleController.obj : error LNK2019: símbolo externo "public: void __thiscall BaseHID::update(void)" (?update@BaseHID@@QAEXXZ) sin resolver al que se hace referencia en la función "void __stdcall TimerCallback(void)" (?TimerCallback@@YGXXZ)
+RumbleController.obj : error LNK2019: símbolo externo "public: __thiscall HIDXbox::HIDXbox(void)" (??0HIDXbox@@QAE@XZ) sin resolver al que se hace referencia en la función "void __cdecl `dynamic initializer for 'Control''(void)" (??__EControl@@YAXXZ)
+RumbleController.obj : error LNK2019: símbolo externo "public: __thiscall HIDXbox::~HIDXbox(void)" (??1HIDXbox@@QAE@XZ) sin resolver al que se hace referencia en la función "void __cdecl `dynamic atexit destructor for 'Control''(void)" (??__FControl@@YAXXZ)
+RumbleController.obj : error LNK2019: símbolo externo "public: virtual void __thiscall HIDXbox::Calibra(void)" (?Calibra@HIDXbox@@UAEXXZ) sin resolver al que se hace referencia en la función _wWinMain@16
+C:\Users\pekev\OneDrive\Documentos\GitHub\DSI\ProyectoNº3\RumbleController\Debug\RumbleController.exe : fatal error LNK1120: 16 externos sin resolver
